@@ -12,14 +12,6 @@
   Catat film, serial, buku, dan game yang sudah atau sedang kamu konsumsi.
 </p>
 
-<p align="center">
-  <a href="#fitur">Fitur</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#instalasi">Instalasi</a> •
-  <a href="#kebijakan">Kebijakan</a> •
-  <a href="#kontak">Kontak</a>
-</p>
-
 ---
 
 ## ✨ Fitur
