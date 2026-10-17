@@ -110,11 +110,11 @@ Ketemu bug atau mau minta fitur baru?
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ oleh <a href="https://github.com/<username>"><username></a>
+  Dibuat dengan ❤️ oleh <a href="https://github.com/algiuu"><username></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/<username>/MediaLog">🔗 GitHub</a> •
-  <a href="https://github.com/<username>/MediaLog/issues">🐛 Issues</a> •
-  <a href="https://github.com/<username>/MediaLog/releases">📦 Releases</a>
+  <a href="https://github.com/algiuu/MediaLog">🔗 GitHub</a> •
+  <a href="https://github.com/algiuu/MediaLog/issues">🐛 Issues</a> •
+  <a href="https://github.com/algiuu/MediaLog/releases">📦 Releases</a>
 </p>
