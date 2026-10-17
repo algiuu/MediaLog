@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">MediaLog</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">Library</string>
+    <string name="nav_for_you">For You</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Chat Screen -->
+    <string name="chat_empty_hint">Halo! 👋 Tanya aku soal rekomendasi atau koleksi kamu.</string>
+    <string name="chat_input_hint">Tulis pesan…</string>
+    <string name="chat_welcome">Mulai ngobrol dengan AI</string>
+
+    <!-- Library Screen -->
+    <string name="type_all">All</string>
+    <string name="type_anime">Anime</string>
+    <string name="type_movies">Movies</string>
+    <string name="type_series">Series</string>
+    <string name="type_books">Books</string>
+
+    <string name="status_all">All Status</string>
+    <string name="status_plan">Plan to Watch/Read</string>
+    <string name="status_ongoing">Ongoing / Watching</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_dropped">Dropped</string>
+
+    <string name="sort_recently_added">Recently Added</string>
+    <string name="sort_rating">Highest Rating</string>
+    <string name="sort_title">Title (A-Z)</string>
+
+    <string name="items_count">%1$d items</string>
+    <string name="items_selected">%1$d dipilih</string>
+
+    <!-- For You Screen -->
+    <string name="for_you_title">For You</string>
+    <string name="mood_prompt_hint">I\'m in the mood for...</string>
+    <string name="mood_chip_dark">something dark and complex...</string>
+    <string name="mood_chip_feel_good">feel-good story...</string>
+    <string name="mood_chip_action">action-packed adventure...</string>
+    <string name="btn_refresh_recommendations">Refresh recommendations</string>
+    <string name="notice_add_api_key">Add your API key</string>
+    <string name="notice_connect_ai">Connect an AI provider to get personalized recommendations</string>
+    <string name="btn_open_settings">Open Settings</string>
+
+    <!-- Stats Screen -->
+    <string name="stats_title">Your Stats</string>
+    <string name="stat_total_tracked">Total Tracked</string>
+    <string name="stat_across_all_types">across all types</string>
+    <string name="stat_completed">Completed</string>
+    <string name="stat_in_progress">%1$d in progress</string>
+    <string name="stat_avg_rating">Avg. Rating</string>
+    <string name="stat_out_of_10">out of 10</string>
+
+    <string name="stat_total_units">Total Episodes/Pages</string>
+    <string name="stat_units_watched">watched/read total</string>
+
+    <string name="section_by_type">By Type</string>
+    <string name="section_top_genres">Top Genres</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="section_ai_provider">AI PROVIDER</string>
+    <string name="label_provider">Provider</string>
+    <string name="desc_provider">AI service for recommendations</string>
+    <string name="label_base_url">Custom Base URL</string>
+    <string name="label_api_key">API Key</string>
+    <string name="hint_enter_api_key">Enter your API key...</string>
+    <string name="label_model">Model</string>
+    <string name="hint_enter_model">Model name (e.g. gemini-1.5-pro)...</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_test_connection">Test Connection</string>
+
+    <string name="section_data">DATA</string>
+    <string name="label_export_library">Export Library</string>
+    <string name="desc_export_library">Save your data as JSON</string>
+    <string name="label_import_library">Import Library</string>
+    <string name="desc_import_library">Restore from a JSON export</string>
+
+    <string name="section_appearance">APPEARANCE</string>
+    <string name="label_theme">Theme</string>
+
+    <!-- Add Media Screen -->
+    <string name="add_to_library_title">Add to Library</string>
+    <string name="search_hint">Search title...</string>
+    <string name="search_hint_type">Search %1$s...</string>
+    <string name="label_results">Results</string>
+    <string name="cant_find_question">Can\'t find what you\'re looking for?</string>
+    <string name="btn_add_manually">Add manually -></string>
+
+    <string name="section_seasonal_anime">Seasonal Anime</string>
+    <string name="season_winter">Winter</string>
+    <string name="season_spring">Spring</string>
+    <string name="season_summer">Summer</string>
+    <string name="season_fall">Fall</string>
+
+    <!-- Detail / Edit Screen -->
+    <string name="detail_title">Media Details</string>
+    <string name="label_my_rating">My Rating</string>
+    <string name="label_progress">Progress</string>
+    <string name="label_notes">Notes / Review</string>
+    <string name="label_tags">Tags</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete Entry</string>
+</resources>

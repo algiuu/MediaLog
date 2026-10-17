@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary / Purple accent -->
+    <color name="primary_purple">#6C5CE7</color>
+    <color name="primary_purple_light">#EAE7FA</color>
+    <color name="primary_purple_dark">#4A3E9F</color>
+
+    <!-- Backgrounds Light -->
+    <color name="bg_light">#F8F7FC</color>
+    <color name="card_bg_light">#F1EFF9</color>
+    <color name="surface_light">#FFFFFF</color>
+
+    <!-- Backgrounds Dark -->
+    <color name="bg_dark">#121216</color>
+    <color name="card_bg_dark">#1E1C28</color>
+    <color name="surface_dark">#252332</color>
+
+    <!-- Status Badge Colors -->
+    <color name="status_completed">#6C5CE7</color>
+    <color name="status_watching">#8E44AD</color>
+    <color name="status_plan">#3498DB</color>
+    <color name="status_dropped">#E74C3C</color>
+
+    <!-- Text Colors Light -->
+    <color name="text_primary_light">#1D1B20</color>
+    <color name="text_secondary_light">#686670</color>
+
+    <!-- Text Colors Dark -->
+    <color name="text_primary_dark">#E6E1E5</color>
+    <color name="text_secondary_dark">#ADABC0</color>
+
+    <!-- Rating / Stars -->
+    <color name="star_active">#8E44AD</color>
+    <color name="star_inactive">#D1CCE8</color>
+
+    <!-- Chips & Divider -->
+    <color name="chip_selected_bg">#E0DBF7</color>
+    <color name="chip_unselected_bg">#FFFFFF</color>
+    <color name="divider_color">#E6E4EE</color>
+
+    <!-- Standard Blacks & Whites -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

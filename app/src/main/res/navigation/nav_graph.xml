@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/libraryFragment">
+
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.medialog.ui.library.LibraryFragment"
+        android:label="@string/nav_library"
+        tools:layout="@layout/fragment_library">
+        <action
+            android:id="@+id/action_libraryFragment_to_addMediaFragment"
+            app:destination="@id/addMediaFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_mediaDetailFragment"
+            app:destination="@id/mediaDetailFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.medialog.ui.calendar.CalendarFragment"
+        android:label="Jadwal Tayang"
+        tools:layout="@layout/fragment_calendar">
+        <action
+            android:id="@+id/action_calendarFragment_to_remoteDetailFragment"
+            app:destination="@id/remoteDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/remoteDetailFragment"
+        android:name="com.example.medialog.ui.detail.RemoteDetailFragment"
+        android:label="Detail Anime"
+        tools:layout="@layout/fragment_remote_detail">
+        <argument
+            android:name="mediaId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forYouFragment"
+        android:name="com.example.medialog.ui.foryou.ForYouFragment"
+        android:label="@string/nav_for_you"
+        tools:layout="@layout/fragment_for_you">
+        <action
+            android:id="@+id/action_forYouFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_forYouFragment_to_addMediaFragment"
+            app:destination="@id/addMediaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.medialog.ui.chat.ChatFragment"
+        android:label="@string/nav_chat"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_chatFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.medialog.ui.stats.StatsFragment"
+        android:label="@string/nav_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.medialog.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/addMediaFragment"
+        android:name="com.example.medialog.ui.add.AddMediaFragment"
+        android:label="@string/add_to_library_title"
+        tools:layout="@layout/fragment_add_media">
+        <action
+            android:id="@+id/action_addMediaFragment_to_mediaDetailFragment"
+            app:destination="@id/mediaDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mediaDetailFragment"
+        android:name="com.example.medialog.ui.detail.MediaDetailFragment"
+        android:label="@string/detail_title"
+        tools:layout="@layout/fragment_media_detail">
+        <argument
+            android:name="entryId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+</navigation>

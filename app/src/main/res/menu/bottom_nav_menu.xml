@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/libraryFragment"
+        android:icon="@drawable/ic_library"
+        android:title="@string/nav_library" />
+    <item
+        android:id="@+id/forYouFragment"
+        android:icon="@drawable/ic_for_you"
+        android:title="@string/nav_for_you" />
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/nav_chat" />
+    <item
+        android:id="@+id/statsFragment"
+        android:icon="@drawable/ic_stats"
+        android:title="@string/nav_stats" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+</menu>
